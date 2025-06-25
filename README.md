@@ -211,4 +211,5 @@ This project is open source. Please check the license file for details.
 
 - [Blockfrost](https://blockfrost.io) for providing the Cardano API
 - [PyCardano](https://github.com/Python-Cardano/pycardano) for Cardano utilities
+- [Claude](https://claude.ai/), because it helps. 
 - The Cardano community for documentation and support
