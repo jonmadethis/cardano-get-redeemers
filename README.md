@@ -48,7 +48,7 @@ export BLOCKFROST_PROJECT_ID=your_project_id_here
 
 **Option 2: Command Line Argument**
 ```bash
-python get-redeemer.py --project-id your_project_id_here --address addr1...
+python get_redeemer.py --project-id your_project_id_here --address addr1...
 ```
 
 ## Usage
@@ -56,26 +56,26 @@ python get-redeemer.py --project-id your_project_id_here --address addr1...
 ### Basic Usage
 
 ```bash
-python get-redeemer.py --address addr1qxy2kv0ynwvuqvfz4d8w20pvd8v9u8t2hnhj0nv8kq4hspjf8rnzmjxr4y4r8tx9x3lv0s4hrz4n0xp0l6h9u4d0n4yq7l4nk3
+python get_redeemer.py --address addr1qxy2kv0ynwvuqvfz4d8w20pvd8v9u8t2hnhj0nv8kq4hspjf8rnzmjxr4y4r8tx9x3lv0s4hrz4n0xp0l6h9u4d0n4yq7l4nk3
 ```
 
 ### Advanced Usage
 
 ```bash
 # Limit the number of redeemers fetched
-python get-redeemer.py --address addr1... --limit 10
+python get_redeemer.py --address addr1... --limit 10
 
 # Use testnet instead of mainnet
-python get-redeemer.py --address addr_test1... --network testnet
+python get_redeemer.py --address addr_test1... --network testnet
 
 # Save output to file
-python get-redeemer.py --address addr1... --output results.json
+python get_redeemer.py --address addr1... --output results.json
 
 # Enable debug logging
-python get-redeemer.py --address addr1... --log-level DEBUG
+python get_redeemer.py --address addr1... --log-level DEBUG
 
 # Combine multiple options
-python get-redeemer.py \
+python get_redeemer.py \
   --address addr1... \
   --limit 50 \
   --network mainnet \
@@ -145,13 +145,13 @@ The script includes comprehensive error handling for:
 ### Example 1: Basic Contract Analysis
 
 ```bash
-python get-redeemer.py --address addr1qxy2kv0ynwvuqvfz4d8w20pvd8v9u8t2hnhj0nv8kq4hspjf8rnzmjxr4y4r8tx9x3lv0s4hrz4n0xp0l6h9u4d0n4yq7l4nk3
+python get_redeemer.py --address addr1qxy2kv0ynwvuqvfz4d8w20pvd8v9u8t2hnhj0nv8kq4hspjf8rnzmjxr4y4r8tx9x3lv0s4hrz4n0xp0l6h9u4d0n4yq7l4nk3
 ```
 
 ### Example 2: Limited Analysis with File Output
 
 ```bash
-python get-redeemer.py \
+python get_redeemer.py \
   --address addr1... \
   --limit 5 \
   --output my_contract_analysis.json
@@ -160,7 +160,7 @@ python get-redeemer.py \
 ### Example 3: Testnet Contract
 
 ```bash
-python get-redeemer.py \
+python get_redeemer.py \
   --address addr_test1... \
   --network testnet \
   --project-id your_testnet_project_id
@@ -192,7 +192,7 @@ python get-redeemer.py \
 Enable debug logging to see detailed information about the processing:
 
 ```bash
-python get-redeemer.py --address addr1... --log-level DEBUG
+python get_redeemer.py --address addr1... --log-level DEBUG
 ```
 
 ## Dependencies
