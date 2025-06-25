@@ -1,0 +1,10 @@
+# Cardano Smart Contract Redeemer Fetcher Dependencies
+
+# Blockfrost API client for Cardano blockchain data
+blockfrost-python>=0.5.0,<1.0.0
+
+# PyCardano library for Cardano address handling and utilities  
+pycardano>=0.8.0,<1.0.0
+
+# HTTP library for API requests
+requests>=2.28.0,<3.0.0
