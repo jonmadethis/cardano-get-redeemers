@@ -2,6 +2,8 @@
 
 A Python tool for fetching and analyzing redeemer data from Cardano smart contracts using the Blockfrost API and PyCardano utilities.
 
+This script makes it easy to pull and inspect the data that Cardano smart contracts use when they spend funds. It connects to the Blockfrost API and uses PyCardano utilities to fetch every redeemer submitted to a given script address. Along with the raw redeemer data you get details on CPU steps and memory usage, the transaction inputs carrying each redeemer, and a summary of script performance. You can use it to debug complex on-chain interactions, verify that your Plutus logic is working as expected, or gather metrics for optimization.
+
 ## Features
 
 - ✅ Fetch UTXOs from Cardano smart contract addresses
